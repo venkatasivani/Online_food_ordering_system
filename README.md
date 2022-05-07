@@ -3,9 +3,10 @@ How to run Project:
 1.Download and unzip file on your local system copy “Online_food_order_system”.
 2.Put “Online_food_order_system” folder inside root directory (xampp / htdocs).
 
-Data base Configuration
+Data base Configuration:
 Create tables in xampp with folder testing.
-To Run
+
+To Run:
 Open your browser put inside browser “http: // localhost/Online_food_order_system”.
 Admin Login Credentials 
 Name: admin                             

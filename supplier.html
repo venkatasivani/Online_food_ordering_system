@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF - 8">
+    <meta name="viewport" content = "width = device - width,initial-scale = 1">
+    <title>SUPPLIER PAGE</title> 
+    <link rel="stylesheet" type = "text/css" href = "styles.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <header>
+        <a href = "#" class ="logo"><img src = "logo-img2.jfif" alt ="hello">
+          <h2>Meal Magic</h2></a>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+          <a  href="background.php" class= "fa fa-home"  >HOME</a>
+                <a href="Menu.php">MENU</a>
+                <a href="login.html" >LOGIN</a>
+              
+                <a href="Cart.php"  class= "fa fa-shopping-cart">CART</a>
+                <a href="supplier.html">SUPPLIER_PORTAL</a>
+                <a href="logout.php">LOGOUT</a>
+        </nav>
+    </header>
+    <section class ="Supplier" id ="Supplier">
+        <div class ="container">
+            <div class ="myforce">
+                
+                  <br>
+                  <h2>SUPPLIER LOGIN</h2>
+                  <br>
+                  
+                    <input type="email"
+                     placeholder="Email">
+                <br><br><br>
+               
+                  
+                  <input type="password"  placeholder="password">
+              <br>
+                <br>
+                <div class="container" style="background-color:#f1f1f1">
+                  <span class="psw"> <h2><a href="index.html"></a></h2></span>
+                </div><br>
+                    <button name = "login" type="submit" id ="login_btn" value="Login" class = "btn">Login</button>
+                </form>
+
+            </div>
+            <div class="image">
+                <img src="OIP.jpg">
+            </div>
+        </div>
+   </section> 
+   
+<style>
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+div.container{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    background-color: white;
+    padding:30px;
+    box-shadow:0 0 40px darkslategray;
+}
+div.container div.myforce{
+    width:280px;
+}
+div.container div.myforce h2{
+    color: #1c1c1c;
+    margin-bottom: 20px;
+}
+div.container div.myforce input {
+    border:none;
+    outline:none;
+    border-radius:0;
+    width:100%;
+    border-bottom:2px solid #1c1c1e;
+    margin-bottom:25px;
+    padding:7px 0;
+    font-size:16px;
+}
+div.container div.myforce  button{
+    
+    background-color:#1c1c1e;
+    border: none;
+    outline:none;
+    border-radius: 4px;
+    font-size:14px;
+    padding:5px 10px;
+    font-weight:500;
+
+}
+div.container .image img{
+    width:300px;
+}
+
+</style>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF - 8">
+    <meta name="viewport" content = "width = device - width,initial-scale = 1">
+    <title>LOGIN PAGE</title> 
+    <link rel="stylesheet" type = "text/css" href = "styles.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type = "text/css" href = "style3.css?v=<?php echo time(); ?>">
+</head>
+<body>
+    
+    <header>
+      
+          <h2>HOLDER</h2></a>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+          <a  href="VC_LOGIN.php" class= "fa fa-home"  >HOME</a>
+                <a href="VC.html" >LOGIN</a>
+              
+                
+                
+        </nav>
+    </header>
+          <div class ="container">
+            <div class ="myforce">
+                <form action = "VC_LOGIN.php" method ="post">
+                  <br>
+                  <div class ="inputBox">
+                   <a href="#" class="fa fa-user-circle-o"></a>
+                
+                    <label for="fullname"><h3>Full Name</h3></label>
+                    <input type="text"
+                    class="form-control"
+                    id="fullname"
+                    name="fullname" required/>
+                </div><br>
+                <div class ="inputBox">
+                  <a href="#" class="fa fa-envelope"></a>
+                  <label for="email"><h3>Email</h3></label>
+                    <input type="email"
+                     class="form-control"
+                     id="email"
+                     name="email" required/>
+                </div><br>
+                <div class ="inputBox">
+                  <a href="#" class="fa fa-eye-slash"></a>
+                  <label for="password"><h3>Password</h3></label>
+                  <input type="password" 
+                   class="form-control"
+                   id="password"
+                   name="password" required/>
+              </div><br>
+                <br>
+                
+                
+                  
+               <button name = "login" type="submit" id ="login_btn" value="Login" class = "btn">Login</button>
+               </form>
+
+            </div>
+                
+              
+            </div>
+            
+<style>
+  .container .myforce{
+    width:300px;
+  }
+ 
+.container .myforce .inputBox label {
+     border:none;
+    outline:none;
+    border-radius:0;
+     width:100%;
+   border-bottom:2px solid #1c1c1e;
+   margin-bottom:25px;
+   padding:7px 0;
+  font-size:16px;
+}
+</style>
+
+</body>
+</html>
